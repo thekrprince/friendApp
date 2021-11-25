@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  padding: 0 0.3rem;
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+}

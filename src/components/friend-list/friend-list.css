@@ -1,0 +1,51 @@
+:root {
+  --globalwidthsize: 1.8rem;
+  --borderColor: grey;
+}
+
+.friend-list-section {
+  margin: 2rem 0;
+}
+
+.friend-list-section div {
+  padding: 0.3rem 0.6rem;
+}
+
+.title {
+  background-color: #ccc;
+  border: 1px solid var(--borderColor);
+  height: var(--globalwidthsize);
+}
+
+.add-search {
+  border: 1px solid var(--borderColor);
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: none;
+  height: var(--globalwidthsize);
+}
+
+input:focus {
+  outline: none;
+}
+
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--borderColor);
+}
+
+.ht {
+  font-size: 0.8rem;
+}
+
+.icon svg {
+  margin-right: 0.3rem;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid var(--borderColor);
+  cursor: pointer;
+}
